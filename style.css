@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+<!-------Navbar-------->
+#navbar {
+    position: sticky;
+}
+
+#navbar-nav {
+    font-size: 18px;
+}
+
+.nav-link {
+    color: black;
+    padding: 2px;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover {
+    color: grey;
+    transition: 1s;
+}
+#login-button:hover {
+    color: white;
+    background-color: #0d6efd;
+    transition: .1s;
+    border: 1px solid #0d6efd;
+}
+
+#menu-button {
+    border: 1px solid transparent;
+}
+#menu-button:hover {
+    border: 1px solid black;
+}
+#menu-button:focus {
+    border: 1px solid blue;
+}
+
+
+/* ----------------Home----------------- */
+#home {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#span1 {
+    font-size: 30px;
+}
+#span2 {
+    font-size: 70px;
+}
+#span3 {
+    font-size: 30px;
+}
+
+
+/* ------------------Projects------------- */
+
+#projects {
+    height: 100vh;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.card img:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
