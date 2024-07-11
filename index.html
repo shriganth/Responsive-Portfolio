@@ -10,9 +10,9 @@
 <body>
 
     <div class="container-fluid col-8">
-        <div class="container-fluid position-sticky mt-0" id="navbar">
+        <!-- <div class="container-fluid"> -->
             <!-------Navbar-------->
-            <nav class="navbar navbar-expand-lg bg-transparent mt-3">
+            <nav class="navbar navbar-expand-lg bg-transparent" id="navbar">
                     <h1>Devfolio</h1>
         
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent" id="menu-button">
@@ -47,7 +47,7 @@
                     </ul>
                 </div>
             </nav>
-        </div>
+        <!-- </div> -->
 
         <!--------Home------------>
         <section id="home">
@@ -70,38 +70,38 @@
         <!--------Skills---------->
         <section id="skills">
             <div class="row text-center justify-content-center" id="skill-image">
-                <h1 class="text-center my-4">Skills</h1>
-                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                <h1 class="text-center my-5">Skills</h1>
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3 d-flex align-items-center justify-content-center">
                     <img src="./images/html.png" alt="">
                 </div>
-                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3 d-flex align-items-center justify-content-center">
                     <img src="./images/css.png" alt="">
                 </div>
-                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3 d-flex align-items-center justify-content-center">
                     <img src="./images/Js.png" alt="">
                 </div>
-                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3 d-flex align-items-center justify-content-center">
                     <img src="./images/bootstrap.png" alt="">
                 </div>
-                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3 d-flex align-items-center justify-content-center">
                     <img src="./images/php.png" alt="">
                 </div>
-                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3 d-flex align-items-center justify-content-center">
                     <img src="./images/spring.png" alt="">
                 </div>
-                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3 d-flex align-items-center justify-content-center">
                     <img src="./images/hibernate.png" alt="">
                 </div>
-                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3 d-flex align-items-center justify-content-center">
                     <img src="./images/docker.png" alt="">
                 </div>
-                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3 d-flex align-items-center justify-content-center">
                     <img src="./images/c.png" alt="">
                 </div>
-                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3 d-flex align-items-center justify-content-center">
                     <img src="./images/java.png" alt="">
                 </div>
-                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3 d-flex align-items-center justify-content-center">
                     <img src="./images/py.png" alt="">
                 </div>
             </div>
@@ -211,10 +211,16 @@
                     <!-- <p class="text-center mt-0 display-3 fw-bold">Contact</p> -->
                 </div>
 
-                <div class="col-lg-6">
-
+                <div class="d-flex flex-row justify-content-around align-items-center col-lg-6 col-md-12 order-1">               
+                    <div class="social-links d-flex flex-row justify-content-around align-items-center">
+                        <a class="" href=""><img src="./icons/github_3291695.png" alt=""></a>
+                        <a class="" href=""><img src="./icons/linkedin_3536505.png" alt=""></a>
+                        <a class="" href=""><img src="./icons/facebook_174848.png" alt=""></a>
+                        <a class="" href=""><img src="./icons/instagram_1409946.png" alt=""></a>
+                    </div>
                 </div>
-                <div class="col-lg-6 col-12 mt-lg-5">
+                <p></p>
+                <div class="col-lg-6 col-md-12 col-12 mt-lg-5 order-sm-2">
                     <div class="d-flex justify-content-center align-items-center">
                         <form action="" >
                             <div class="d-flex flex-column mb-3">
@@ -242,11 +248,13 @@
                         </form>
                     </div>
                 </div>
-
             </div>
         </section>
-
     </div>
+    <footer id="footer">
+        <h3>Intrested to work with us? Drop us a line</h2>
+        <a class="fs-4" href="">shriganth87@gmail.com</a>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

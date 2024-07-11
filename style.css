@@ -7,11 +7,11 @@ body {
 }
 
 <!-------Navbar-------->
-/* #navbar {
+#navbar {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-} */
+}
 
 #navbar-nav {
     font-size: 18px;
@@ -95,6 +95,33 @@ body {
 
 /* ---------Contact----------- */
 #contact {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
+.social-links {
+    width: 400px;
+    height: 70px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.social-links img {
+    /* margin: auto; */
+    width: 50px;
+}
+
+#footer {
+    min-height: 0vh;
+    background-color: grey;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
