@@ -10,9 +10,9 @@
 <body>
 
     <div class="container-fluid col-8">
-        <div class="container-fluid">
+        <div class="container-fluid position-sticky mt-0" id="navbar">
             <!-------Navbar-------->
-            <nav class="navbar navbar-expand-lg bg-transparent mt-3" id="navbar">
+            <nav class="navbar navbar-expand-lg bg-transparent mt-3">
                     <h1>Devfolio</h1>
         
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent" id="menu-button">
@@ -31,13 +31,17 @@
                         <li class="nav-item mx-2">
                             <a href="#" class="nav-link">ABOUT</a>
                         </li>
+
+                        <li class="nav-item mx-2">
+                            <a href="#skills" class="nav-link">SKILLS</a>
+                        </li>
         
                         <li class="nav-item mx-2">
                             <a href="#projects" class="nav-link">PROJECTS</a>
                         </li>
         
                         <li class="nav-item mx-2">
-                            <a href="#" class="nav-link">CONTACT</a>
+                            <a href="#contact" class="nav-link">CONTACT</a>
                         </li>
         
                     </ul>
@@ -63,12 +67,52 @@
             </div>
         </section>
 
+        <!--------Skills---------->
+        <section id="skills">
+            <div class="row text-center justify-content-center" id="skill-image">
+                <h1 class="text-center my-4">Skills</h1>
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                    <img src="./images/html.png" alt="">
+                </div>
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                    <img src="./images/css.png" alt="">
+                </div>
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                    <img src="./images/Js.png" alt="">
+                </div>
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                    <img src="./images/bootstrap.png" alt="">
+                </div>
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                    <img src="./images/php.png" alt="">
+                </div>
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                    <img src="./images/spring.png" alt="">
+                </div>
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                    <img src="./images/hibernate.png" alt="">
+                </div>
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                    <img src="./images/docker.png" alt="">
+                </div>
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                    <img src="./images/c.png" alt="">
+                </div>
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                    <img src="./images/java.png" alt="">
+                </div>
+                <div class="col-md-4 col-lg-3 my-5 my-sm-3">
+                    <img src="./images/py.png" alt="">
+                </div>
+            </div>
+        </section>
+
         <!--------Projects-------->
         <section id="projects">
             <div class="row">
-                <h1 class="text-center">Projects</h1>
-                <div class="col-md-3 my-4">
-                    <div class="card align" style="width: 18rem;">
+                <h1 class="text-center my-4">Projects</h1>
+                <div class="col-md-6 col-lg-4 col-xl-3 my-4">
+                    <div class="card" style="width: 18rem;">
                         <div class="inner">
                             <img id="pro-img" src="./project-1.jpeg" alt="">
                         </div>
@@ -78,18 +122,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 my-4">
-                    <div class="card align" style="width: 18rem;">
-                        <div class="inner">
-                            <img id="pro-img" src="./project-1.jpeg" alt="">
-                        </div>                        
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <button type="button" class="btn btn-outline-primary">Learn More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 my-4">
+                <div class="col-md-6 col-lg-4 col-xl-3 my-4">
                     <div class="card align" style="width: 18rem;">
                         <div class="inner">
                             <img id="pro-img" src="./project-1.jpeg" alt="">
@@ -100,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 my-4">
+                <div class="col-md-6 col-lg-4 col-xl-3 my-4">
                     <div class="card align" style="width: 18rem;">
                         <div class="inner">
                             <img id="pro-img" src="./project-1.jpeg" alt="">
@@ -111,7 +144,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 my-4">
+                <div class="col-md-6 col-lg-4 col-xl-3 my-4">
                     <div class="card align" style="width: 18rem;">
                         <div class="inner">
                             <img id="pro-img" src="./project-1.jpeg" alt="">
@@ -122,7 +155,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 my-4">
+                <div class="col-md-6 col-lg-4 col-xl-3 my-4">
                     <div class="card align" style="width: 18rem;">
                         <div class="inner">
                             <img id="pro-img" src="./project-1.jpeg" alt="">
@@ -133,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 my-4">
+                <div class="col-md-6 col-lg-4 col-xl-3 my-4">
                     <div class="card align" style="width: 18rem;">
                         <div class="inner">
                             <img id="pro-img" src="./project-1.jpeg" alt="">
@@ -144,8 +177,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 my-4">
+                <div class="col-md-6 col-lg-4 col-xl-3 my-4">
                     <div class="card align" style="width: 18rem;">
+                        <div class="inner">
+                            <img id="pro-img" src="./project-1.jpeg" alt="">
+                        </div>                        
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="btn btn-outline-primary">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 my-4">
+                    <div class="card" style="width: 18rem;">
                         <div class="inner">
                             <img id="pro-img" src="./project-1.jpeg" alt="">
                         </div>                        
@@ -156,6 +200,49 @@
                     </div>
                 </div>
                          
+            </div>
+        </section>
+
+        <!--------Contact---------->
+        <section id="contact">
+            <div class="row">
+                <div class="container d-flex flex-column text-center mt-5">
+                    <p class="fs-5 mb-0">get in touch <p class="display-3 mt-0">CONTACT</p></p>
+                    <!-- <p class="text-center mt-0 display-3 fw-bold">Contact</p> -->
+                </div>
+
+                <div class="col-lg-6">
+
+                </div>
+                <div class="col-lg-6 col-12 mt-lg-5">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <form action="" >
+                            <div class="d-flex flex-column mb-3">
+                                <label class="mb-2" for="name">Your Name</label>
+                                <div>
+                                    <input type="text" name="name" size="40">
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column mb-3">
+                                <label class="mb-2" for="email">Your Email</label>
+                                <div>
+                                    <input type="text" name="name" size="40">
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column mb-3">
+                                <label class="mb-2" for="comments">Comments</label>
+                                <div>
+                                    <textarea name="comments" id="" rows="6" cols="40"></textarea>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <button type="button" class="btn btn-outline-danger">Send</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+
             </div>
         </section>
 

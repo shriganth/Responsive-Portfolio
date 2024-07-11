@@ -7,9 +7,11 @@ body {
 }
 
 <!-------Navbar-------->
-#navbar {
+/* #navbar {
+    position: -webkit-sticky;
     position: sticky;
-}
+    top: 0;
+} */
 
 #navbar-nav {
     font-size: 18px;
@@ -62,10 +64,24 @@ body {
 }
 
 
+/* ------------------Skills--------------- */
+#skills {
+    min-height: 100vh;
+}
+
+#skill-image img {
+    width: 10rem;
+}
+
+
 /* ------------------Projects------------- */
 
 #projects {
-    height: 100vh;
+    min-height: 100vh;
+}
+
+#heading-projects {
+    top: 0px;
 }
 
 .inner {
@@ -76,3 +92,9 @@ body {
     transform: scale(1.5);
     transition: 1s;
 }
+
+/* ---------Contact----------- */
+#contact {
+    min-height: 100vh;
+}
+
