@@ -4,6 +4,8 @@ body {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
+    background-color: rgba(52,53,58,255);
+    color: white;
 }
 
 <!-------Navbar-------->
@@ -18,13 +20,13 @@ body {
 }
 
 .nav-link {
-    color: black;
+    color: white;
     padding: 2px;
     border: 2px solid transparent;
 }
 
 .nav-link:hover {
-    color: grey;
+    color: rgba(240,191,108,255);
     transition: 1s;
 }
 #login-button:hover {
@@ -53,6 +55,19 @@ body {
     align-items: center;
 }
 
+.name {
+    color: rgba(240,191,108,255);
+}
+
+#home button {
+    border-color: rgba(240,191,108,255);
+    color: rgba(240,191,108,255);
+}
+#home button:hover {
+    background-color: rgba(240,191,108,255);
+    color: rgba(52,53,58,255);
+}
+
 #span1 {
     font-size: 30px;
 }
@@ -69,10 +84,32 @@ body {
     min-height: 100vh;
 }
 
-#skill-image img {
-    width: 10rem;
+/* #skill-image img {
+    padding: 20px;
+    width: 8rem;
 }
 
+#skills .img-border {
+    border: 1px solid white;
+} */
+
+#skills .skill-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 220px;
+    background-color: rgba(61,62,66,255);
+    border: 1px solid rgba(240,191,108,255);
+    border-radius: 20px;
+}
+#skills .skill-box:hover {
+    background-color: rgba(240,191,108,255);
+    /* color: rgba(61,62,66,255); */
+}
+.skill-box img {
+    width: 7rem;
+}
 
 /* ------------------Projects------------- */
 
