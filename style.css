@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif, Times, serif;
     width: 100%;
     background-color: rgba(52,53,58,255);
     color: white;
@@ -78,6 +78,26 @@ body {
     font-size: 30px;
 }
 
+.social-icon-bar {
+    width: 200px;
+    height: auto;
+}
+.social-icon-bar a {
+    text-align: center;
+    width: max-content;
+    height: max-content;
+    border: 1px solid rgba(61,62,66,255);
+    border-radius: 100px;
+    background-color: rgba(61,62,66,255);
+}
+.social-icon-bar a:hover {
+    background-color: rgba(240,191,108,255);
+    border-color: rgba(240,191,108,255);
+}
+.social-icon {
+    width: 35px;
+    padding: 5px;
+}
 
 /* ------------------Skills--------------- */
 #skills {
@@ -105,6 +125,7 @@ body {
 }
 #skills .skill-box:hover {
     background-color: rgba(240,191,108,255);
+    border: 2px solid rgba(61,62,66,255);
     /* color: rgba(61,62,66,255); */
 }
 .skill-box img {
